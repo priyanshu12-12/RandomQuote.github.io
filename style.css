@@ -1,0 +1,36 @@
+.card{
+    background-color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    padding: 6%;
+    margin-top: 9%;
+    margin-left: 27%;
+    width: 44%;
+    word-wrap:break-word;
+}
+#new-quote{
+    position: relative;
+}
+
+@media only screen and (max-width: 399px) {
+    #quote-box{
+        position: relative;
+        display:flex;
+        align-items: center;
+        top: 59%;
+        width: 64%;
+        right: 5%;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    #quote-box{
+        position: relative;
+        display:flex;
+        align-items: center;
+        top: 59%;
+        width: 64%;
+        right: 7%;
+    }
+}
